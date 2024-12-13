@@ -15,11 +15,11 @@
         let cities = ["Karachi", "Lahore", "Islamabad", "Pindi", "Hydrabad", "Peshawar"];
 
         function checkCity() {
-            let userCity = document.getElementById("cityInput").value.trim(); // Get user input
+            let userCity = document.getElementById("cityInput").value.trim();
             let isMatched = "no";
 
             for (let i = 0; i < cities.length; i++) {
-                if (userCity.toLowerCase() === cities[i].toLowerCase()) { // Case-insensitive match
+                if (userCity.toLowerCase() === cities[i].toLowerCase()) {
                     isMatched = "yes";
                     break;
                 }
